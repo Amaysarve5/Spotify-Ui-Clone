@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="hamburger-container">
+        <div class="hamburger invert"><img src="img/menu.svg" ></div>
+        <div class="logo invert"><img src="img/logo.svg"></div>
+        <div class="home invert"><img width="20" src="img/home.svg"></div>
+        <div class="search-bar">
+            <img class="invert" class="search-icon" width="20" src="img/search.svg">
+            <input type="text" placeholder="What do you want to play?">
+        </div>
+          </div>
+    </div>
+        <ul class="nav-links">
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Download</a></li>
+        </ul>
+        <p class="slash">|</p>
+        <ul class="user-links">
+            <div class="install">
+            <li class="instal app1"><a href="#">Install App</a></li>
+            <li class="sign"><a href="#">Sign up</a></li>
+            </div>
+            <li><button class="login-btn">Log in</button></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="left-container">
+            <div class="closed"><img class="invert" src="img/cross.svg" alt=""></div>
+            <div class="lib">
+            <img class="invert library-icon" width="23" src="img/library.svg">
+            <div class="library">Your Library<p class="lib-gap"></p></div></div>
+            
+            <div class="song-list">
+                <ul>
+                   
+                </ul>
+            </div>
+            <div class="footer">
+                <ul class="footer-li">
+                    <li>Legal</li>
+                    <li>Safty & PraivacyCenter</li>
+                    <li>Privacy policy</li>
+                    <li>Cookies</li>
+                </ul>
+                <ul class="footer-li">
+                    <li>About Ads</li>
+                    <li>Accessibility</li>
+                </ul>
+                <li class="footer-li2">Cookies</li>
+            </div>
+            <button class="eng-btn"> <img width="15" src="img/english.svg" alt=""> English</button>
+        </div>
+        <div class="right-container">
+            <div class="items">
+            <div class="pop-art">Populor artists
+                <div class="gap-btw">Show all</div>
+            </div>
+            <div class="artist">
+                <div class="pritam art"><img src="img/pritam.jpeg"><div class="art-icon">Pritam</div><div class="art-icon">Artist</div></div>
+                <div class="arjit art"><img src="img/arjit.jpeg"><div class="art-icon">Arjit Singh</div> <div class="art-icon">Artist</div></div>
+                <div class="ar-rahman art"><img src="img/ar-rahman.jpeg"><div class="art-icon">A.r. Rahman</div> <div class="art-icon">Artist</div></div>
+                <div class="sachin art"><img src="img/sachin.jpeg"><div class="art-icon">Sachin-Jigar</div> <div class="art-icon">Artist</div></div>
+                <div class="vishal art"><img src="img/vishal.jpeg"><div class="art-icon">Vishal-Shekhar</div> <div class="art-icon">Artist</div></div>
+                <div class="atif art"><img src="img/atif.jpeg"><div class="art-icon">Atif Aslam</div> <div class="art-icon">Artist</div></div>
+            </div>
+
+            <div class="albums">Popular albums and singles <div class="gap-btw">Show all</div></div>
+            <div class="card-icon1">
+                <div data-folder="workout" class="card"><img src="img/workout.jpeg"><h3>Popular workout songs</h3></div>
+                <div data-folder="marathi" class="card"><img src="img/marathi3.jpeg"><h3>Marathi songs</h3></div>
+                <div data-folder="yehjavanihaideewane" class="card"><img src="img/jawani.jpeg"><h3>yeh jawani hai dewani</h3></div>
+                <div data-folder="honey" class="card"><img src="img/yo.jpeg"><h3>Glory</h3></div>
+                <div data-folder="Bhakti" class="card"><img src="img/maharaj.jpeg"><h3>Bhakti songs</h3></div>
+                <div data-folder="mismatch" class="card"><img src="img/mismaster.jpeg"><h3>Mismatched</h3></div>
+            </div>
+
+            <div class="albums1">Popular radio<div class="gap-btw">Show all</div></div>
+            <div class="card-icon1">
+                <div data-folder="Arjit" class="card"><img src="img/singh.jpeg"><h3>Best of Arjit</h3></div>
+                <div data-folder="diljit" class="card"><img src="img/diljit.jpeg"><h3>Best of Diljit</h3></div>
+                <div data-folder="udit" class="card"><img src="img/udit.jpeg"><h3>Best of Udit</h3></div>
+                <div data-folder="Faheem" class="card"><img src="img/faheem.jpeg"><h3>Faheem Abdullah</h3></div>
+                <div data-folder="pritam" class="card"><img src="img/pritam2.jpeg"><h3>Pritam</h3></div>
+                <div data-folder="udit" class="card"><img src="img/alka.jpeg"><H3>Alka</H3></div>
+            </div>            
+        </div>
+    </div>
+    </div>
+
+    <div class="play-bar">
+        <div class="seekbar">
+            <div class="circle"></div>
+        </div>
+        <div class="songinfo">
+
+        </div>
+        <div class="songs-btn">
+            <img id="previous" src="img/previous.svg" alt="">
+            <img id="play" width="40px" src="img/play2.svg" alt="">
+            <img id="next" src="img/next.svg" alt="">
+        </div>
+        <div class="timevol">
+
+        <div class="song-time">
+
+        </div>
+        <div class="volume">
+            <img src="img/volume.svg">
+            <div class="range">
+                <input type="range" name="volume">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
