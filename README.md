@@ -12,4 +12,4 @@ The **Spotify Clone UI** is a front-end project that replicates the look and fee
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Spotify-Ui-Clone.git
+   git clone https://github.com/Amaysarve5/Spotify-Ui-Clone.git
